@@ -1,0 +1,11 @@
+--- origsrc/pidgin-indicator-1.0/src/Makefile.am	2014-02-04 21:55:37.000000000 -0600
++++ src/pidgin-indicator-1.0/src/Makefile.am	2016-12-02 14:08:40.902629900 -0600
+@@ -2,7 +2,7 @@ EXTRA_DIST =
+ 
+ indicatordir = $(PIDGIN_LIBDIR)/pidgin
+ 
+-indicator_la_LDFLAGS = -module -avoid-version
++indicator_la_LDFLAGS = -module -avoid-version -no-undefined
+ 
+ if PLUGINS
+ 
