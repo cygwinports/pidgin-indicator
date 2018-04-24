@@ -2,7 +2,7 @@ inherit gnome2
 
 NAME="pidgin-indicator"
 VERSION=1.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Net"
 SUMMARY="Application Indicator plugin for Pidgin"
 DESCRIPTION="This plugin provides an Application Indicator icon for Pidgin,
